@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import type { Artwork } from "../types";
+import type { ArtworkArray } from "../types";
 import { basicArt, searchArt } from "../data";
 import ArtworkCard from "../components/UI/ArtworkCard";
 
 interface ArtResponse {
-  data: Artwork[];
+  data: ArtworkArray;
   pagination: {
     total: number;
     current_page: number;
