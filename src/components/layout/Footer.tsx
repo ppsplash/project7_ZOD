@@ -26,7 +26,6 @@ function Footer() {
           </a>
         </nav>
       </footer>
-      ;
     </div>
   );
 }
